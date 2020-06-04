@@ -17,7 +17,7 @@ public class hibernateconfiguration
 	private ApplicationContext context;
 
 	@Bean
-	public LocalSessionFactoryBean getSessionFactory()  
+	public LocalSessionFactoryBean getSessionFactory()  //this is just dummy code
 	{
 		LocalSessionFactoryBean factoryBean = new LocalSessionFactoryBean();
 		factoryBean.setConfigLocation(context.getResource("classpath:hibernate.cfg.xml"));
